@@ -4,9 +4,9 @@
 
 Start by cloning this template repository.
 
-Alternatively start a new quasar project repository and copy the `amplify` folder, merge the `.gitignore` copy the `src/boot/amplify.ts` file and add `amplify` to the boot line in `quasar.config.ts` : `    boot: ['i18n', 'axios', 'amplify'],`. Then run `npm install --legacy-peer-deps aws-amplify @aws-amplify/ui-vue @aws-amplify/backend @aws-amplify/backend-cli aws-cdk aws-cdk-lib aws-lambda constructs`
+Alternatively start a new quasar project repository and copy the `amplify` folder, merge the `.gitignore` copy the `src/boot/amplify.ts` file and add `amplify` to the boot line in `quasar.config.ts` : `    boot: ['i18n', 'axios', 'amplify'],`. Then run `npm install --legacy-peer-deps aws-amplify @aws-amplify/ui-vue @aws-amplify/backend @aws-amplify/backend-cli aws-cdk aws-cdk-lib constructs`
 
-Now in the amplify web console start a new amplify project pointing at the repo you have just created. You can specify package versions in the build. This template requires Node 24 to build correctly.
+Now in the amplify web console start a new amplify project pointing at the repo you have just created. You can specify package versions in the build. This template requires Node 22 or greater to build correctly.
 
 ## Running Locally
 To run locally you will need the amplify_outputs.json from the cloud or run the program in a sandbox with 
